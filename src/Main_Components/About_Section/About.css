@@ -1,0 +1,36 @@
+#about-section {
+    margin-block: 10em;
+}
+
+#profile-image img {
+    border-radius: 50%;
+    width: 50%;
+    border: 5px solid var(--darkred);
+    padding: 5px;
+    /* pointer-events: none; */
+}
+
+#profile-image img:hover {
+    border: 5px solid var(--hover-color);
+    transform: var(--transform-scale);
+}
+
+#profile-image {
+    text-align: end;
+}
+
+@media screen and (width <=768px) {
+    #about-section {
+        margin-block: 0rem;
+    }
+
+    #about-section .container {
+        gap: 3rem;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #profile-image {
+        text-align: center;
+    }
+}

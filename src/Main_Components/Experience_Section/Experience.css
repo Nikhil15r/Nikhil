@@ -1,0 +1,13 @@
+.content-box h6 {
+    font-size: 15px;
+    color: var(--grey);
+    color: darkslategray;
+}
+
+.content-box a {
+    color: var(--blue);
+}
+
+.content-box a:hover {
+    color: var(--hover-color);
+}

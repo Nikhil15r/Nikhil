@@ -1,0 +1,30 @@
+#main-footer {
+    padding-block: 100px;
+    color: var(--white);
+}
+
+#main-footer .container {
+    justify-content: space-between;
+}
+
+footer ul li .nav-links {
+    margin-right: 10px;
+}
+
+footer ul li {
+    margin-inline: 1rem;
+}
+
+#main-footer img {
+    width: 40%;
+}
+
+#top-button img {
+    background-color: var(--white);
+    border-radius: 50%;
+    width: 5rem;
+}
+
+#top-button :hover {
+    background: #14b2c7;
+}

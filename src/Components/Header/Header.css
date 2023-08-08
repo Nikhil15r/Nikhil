@@ -1,0 +1,44 @@
+header {
+    padding-block: 18px;
+    background: var(--light-black-color);
+    color: var(--white);
+}
+
+#navbar {
+    justify-content: space-between;
+    background: var(--light-black-color);
+    /* padding: 0; */
+}
+
+#navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#navbar ul li {
+    margin-inline: 1rem;
+    text-align: center;
+}
+
+#navbar .icon {
+    gap: 2rem;
+}
+
+#navbar ul li a {
+    font-size: 1.9rem;
+}
+
+#logo {
+    font-size: 8rem;
+    font-family: 'Yrsa', serif;
+    color: var(--primary-color);
+}
+
+#logo:hover {
+    color: var(--hover-color);
+}
+
+.leetcode {
+    width: 25%;
+}
